@@ -1,7 +1,7 @@
 /* About Person area css
 ============================================================================================ */
 .about_person_area{
-    background: #fff;
+    background: #f2f1ef;
     margin-top: 60px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -12,7 +12,10 @@
         }
         .download_btn{
             margin-top: 40px;
+            
+
         }
+       
     }
     .person_details{
         margin-left: -30px;
@@ -24,7 +27,7 @@
             font-weight: bold;
             padding-bottom: 10px;
             span{
-                color: #800080;
+                color: $baseColor;
             }
         }
         h4{
@@ -64,6 +67,11 @@
                         }
                     }
                 }
+            }
+            .download_btn{
+                margin-top: 40px;
+                
+
             }
         }
     }
